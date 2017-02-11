@@ -134,7 +134,7 @@ public class TestDb extends AndroidTestCase {
 
         locationRowId = db.insert(WeatherContract.LocationEntry.TABLE_NAME, null, testValues);
 
-        assertFalse(locationRowId != -1);
+        assertTrue(locationRowId != -1);
 
         // Query the database and receive a Cursor back
 

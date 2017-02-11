@@ -41,7 +41,8 @@
         </activity>
         <provider
             android:authorities="com.example.sharuns.sunshine.app"
-            android:name=".data.WeatherProvider">
+            android:name=".data.WeatherProvider"
+            android:exported="true">
         </provider>
     </application>
 
